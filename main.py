@@ -36,15 +36,14 @@ class Listenner:
         if self.init == 0:
             return None
         result = re.match(".*] Found.*|.*] Ban.*", line)
-        if result is not None:
+        if result:
             return line
         return None
 
     def sent(self, line):
-        if line is None:
-            return
-        request = requests.post(self.url + self.token + "/?title=" + self.title + "&body=" + line + self.extra)
-        print(NowTime() + "Message sent! Status code = " + str(request.status_code))
+        if line:
+            request = requests.post(self.url + self.token + "/?title=" + self.title + "&body=" + line + self.extra)
+            print(NowTime() + "Message sent! Status code = " + str(request.status_code))
 
 
 def NowTime():
