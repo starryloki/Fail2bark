@@ -1,6 +1,6 @@
 # Fail2bark
 
-English
+(English)[/README_ENG.md]
 
 Fail2bark 是一个将Fail2ban的输出信息使用Bark推送到iOS设备上的自动化脚本
 
