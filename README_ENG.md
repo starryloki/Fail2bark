@@ -25,10 +25,10 @@ Refer to [Finb/Bark](https://github.com/Finb/Bark) for Bark deployment
 ```python
 if __name__ == '__main__':
     l = Listenner()
-    l.url = "https://yourserver:port/"#fill in the Park server address and port.
+    l.url = "https://yourserver:port/"    #fill in the Park server address and port.
     l.token = "yourtoken"                 #fill in token
     l.title = "Fail2Ban Notice"           #push notification title
-    l.extra = ""           #additional messages at the end
+    l.extra = ""                          #additional messages at the end
     l.readlog("/var/log/fail2ban.log")    #fail2ban log location
 ```
 
