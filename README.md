@@ -38,5 +38,5 @@ if __name__ == '__main__':
 
 # 效果图
 
-![](https://cdn.jsdelivr.net/gh/starryloki/cdn@master/img/undmf-cs7s0.gif)
+![photo](https://cdn.jsdelivr.net/gh/starryloki/cdn@master/img/undmf-cs7s0.gif)
 
